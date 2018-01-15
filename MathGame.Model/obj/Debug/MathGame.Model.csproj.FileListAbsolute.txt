@@ -1,0 +1,6 @@
+C:\Users\jensda\source\repos\MathGame\MathGame.Model\bin\Debug\MathGame.Model.dll
+C:\Users\jensda\source\repos\MathGame\MathGame.Model\bin\Debug\MathGame.Model.pdb
+C:\Users\jensda\source\repos\MathGame\MathGame.Model\obj\Debug\MathGame.Model.csprojResolveAssemblyReference.cache
+C:\Users\jensda\source\repos\MathGame\MathGame.Model\obj\Debug\MathGame.Model.csproj.CoreCompileInputs.cache
+C:\Users\jensda\source\repos\MathGame\MathGame.Model\obj\Debug\MathGame.Model.dll
+C:\Users\jensda\source\repos\MathGame\MathGame.Model\obj\Debug\MathGame.Model.pdb
