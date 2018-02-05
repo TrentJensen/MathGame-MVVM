@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="MathGame.Scores.ScoreView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
+             xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+             xmlns:local="clr-namespace:MathGame.Scores"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <ei:CallMethodAction TargetObject="{Binding}" MethodName="LoadPlayers" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid>
+        <DataGrid ItemsSource="{Binding Players}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="First Name"
+                                    Binding="{Binding FirstName}" />
+                <DataGridTextColumn Header="Last Name"
+                                    Binding="{Binding LastName}" />
+                <DataGridTextColumn Header="+ High Score"
+                                    Binding="{Binding AddScore}" />
+                <DataGridTextColumn Header="+ Time"
+                                    Binding="{Binding AddTime}" />
+                <DataGridTextColumn Header="- High Score"
+                                    Binding="{Binding SubScore}" />
+                <DataGridTextColumn Header="- Time"
+                                    Binding="{Binding SubTime}" />
+                <DataGridTextColumn Header="x High Score"
+                                    Binding="{Binding MultScore}" />
+                <DataGridTextColumn Header="x Time"
+                                    Binding="{Binding MultTime}" />
+                <DataGridTextColumn Header="/ High Score"
+                                    Binding="{Binding DivScore}" />
+                <DataGridTextColumn Header="/ Time"
+                                    Binding="{Binding DivTime}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
