@@ -4,17 +4,30 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\obj\Debug\
+=======
+C:\Users\jensda\source\repos\MathGame\MathGame\obj\Debug\
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
 MathGame
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\App.xaml
 7798395617
 
 311607118877
 32-1389892142
 Dialogs\DialogService\DialogWindow.xaml;Game\ChooseGameView.xaml;Game\GameView.xaml;MainWindow.xaml;Players\AddEditView.xaml;Players\PlayerListView.xaml;Scores\ScoreView.xaml;
+=======
+C:\Users\jensda\source\repos\MathGame\MathGame\App.xaml
+5-2131581556
+
+25-1704136732
+32429832111
+Game\ChooseGameView.xaml;Game\GameView.xaml;MainWindow.xaml;Players\AddEditView.xaml;Players\PlayerListView.xaml;
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
 
 True
 

@@ -1,18 +1,27 @@
 ﻿using MathGame.Model;
+<<<<<<< HEAD
 using MathGame.Services;
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< HEAD
 using System.Windows.Threading;
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
 
 namespace MathGame.Game
 {
     public class GameViewModel : BaseViewModel
     {
+<<<<<<< HEAD
         private IPlayerRepository _repo;
 
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
         public RelayCommand SubmitCommand { get; private set; }
         public RelayCommand StartCommand { get; private set; }
 
@@ -24,6 +33,12 @@ namespace MathGame.Game
             set { SetProperty(ref _currentPlayer, value); }
         }
 
+<<<<<<< HEAD
+=======
+
+        private string _operation;
+
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
         private int _questionCount;
 
         public int QuestionCount
@@ -32,8 +47,11 @@ namespace MathGame.Game
             set { SetProperty(ref _questionCount, value); }
         }
 
+<<<<<<< HEAD
         private string _operation;
 
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
         public string Operation
         {
             get { return _operation; }
@@ -58,6 +76,7 @@ namespace MathGame.Game
 
         private int[] randNum = new int[2];
 
+<<<<<<< HEAD
         private int? _input;
 
         public int? Input
@@ -95,16 +114,38 @@ namespace MathGame.Game
         private void UpdateClock(object sender, EventArgs e)
         {
             Clock++;
+=======
+        private int _input;
+
+        public int Input
+        {
+            get { return _input; }
+            set { _input = value; }
+        }
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        public GameViewModel()
+        {
+            SubmitCommand = new RelayCommand(SubmitAnswer, CanSubmitAnswer);
+            StartCommand = new RelayCommand(OnStart, CanStart);
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
         }
 
         private void OnStart()
         {
+<<<<<<< HEAD
             _roundOver = false;
             NumCorrect = 0;
             timer.Interval = new TimeSpan(0, 0, 1);
             timer.Start();
 
             CreateEquation();
+=======
+            CreateEquation();
+
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
         }
 
         private bool CanStart()
@@ -118,20 +159,29 @@ namespace MathGame.Game
             {
                 NumCorrect += 1;
             }
+<<<<<<< HEAD
             Input = null;
             if (QuestionCount < 11)
                 CreateEquation();
             else
                 EndRound();
+=======
+            CreateEquation();
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
         }
 
         private bool CanSubmitAnswer()
         {
+<<<<<<< HEAD
             if (!_roundOver)
+=======
+            if (QuestionCount < 11)
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
                 return true;
             return false;
         }
 
+<<<<<<< HEAD
         private void EndRound()
         {
             timer.Stop();
@@ -164,6 +214,8 @@ namespace MathGame.Game
             _repo.UpdatePlayerAsync(CurrentPlayer);
         }
 
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
         private int getCorrectAnswer()
         {
             int answer = 0;

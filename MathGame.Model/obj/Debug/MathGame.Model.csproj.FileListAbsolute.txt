@@ -4,9 +4,12 @@ C:\Users\jensda\source\repos\MathGame\MathGame.Model\obj\Debug\MathGame.Model.cs
 C:\Users\jensda\source\repos\MathGame\MathGame.Model\obj\Debug\MathGame.Model.csproj.CoreCompileInputs.cache
 C:\Users\jensda\source\repos\MathGame\MathGame.Model\obj\Debug\MathGame.Model.dll
 C:\Users\jensda\source\repos\MathGame\MathGame.Model\obj\Debug\MathGame.Model.pdb
+<<<<<<< HEAD
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Model\bin\Debug\MathGame.Model.dll
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Model\bin\Debug\MathGame.Model.pdb
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Model\obj\Debug\MathGame.Model.csprojResolveAssemblyReference.cache
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Model\obj\Debug\MathGame.Model.csproj.CoreCompileInputs.cache
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Model\obj\Debug\MathGame.Model.dll
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Model\obj\Debug\MathGame.Model.pdb
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4

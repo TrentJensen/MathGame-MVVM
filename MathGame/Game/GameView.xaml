@@ -8,11 +8,19 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
         <Grid.RowDefinitions>
+<<<<<<< HEAD
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <TextBlock Text="{Binding Clock}" FontSize="30" />
+=======
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="GameView" />
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
         <TextBlock Grid.Row="1" Text="{Binding Equation}" FontSize="30"/>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -21,11 +29,15 @@
                 <ColumnDefinition Width=".5*" />
             </Grid.ColumnDefinitions>
             <TextBox Grid.Column="1" 
+<<<<<<< HEAD
                      Text="{Binding Input, UpdateSourceTrigger=PropertyChanged}">
                 <TextBox.InputBindings>
                     <KeyBinding Key="Enter" Command="{Binding SubmitCommand}" />
                 </TextBox.InputBindings>
             </TextBox>
+=======
+                     Text="{Binding Input}" />
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
             <Button Grid.Column="2"
                     Content="Submit"
                     Command="{Binding SubmitCommand}" />

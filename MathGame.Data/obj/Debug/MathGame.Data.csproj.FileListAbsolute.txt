@@ -14,6 +14,7 @@ C:\Users\jensda\source\repos\MathGame\MathGame.Data\bin\Debug\EntityFramework.Sq
 C:\Users\jensda\source\repos\MathGame\MathGame.Data\bin\Debug\EntityFramework.xml
 C:\Users\jensda\source\repos\MathGame\MathGame.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\jensda\source\repos\MathGame\MathGame.Data\obj\Debug\MathGame.Data.Migrations.InitialDatabase.resources
+<<<<<<< HEAD
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Data\bin\Debug\MathGame.Data.dll.config
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Data\bin\Debug\MathGame.Data.dll
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Data\bin\Debug\MathGame.Data.pdb
@@ -30,3 +31,5 @@ C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Dat
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Data\obj\Debug\MathGame.Data.csproj.CoreCompileInputs.cache
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Data\obj\Debug\MathGame.Data.dll
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame.Data\obj\Debug\MathGame.Data.pdb
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4

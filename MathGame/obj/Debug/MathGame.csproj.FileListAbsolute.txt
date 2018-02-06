@@ -69,6 +69,7 @@ C:\Users\jensda\source\repos\MathGame\MathGame\bin\Debug\Unity.RegistrationByCon
 C:\Users\jensda\source\repos\MathGame\MathGame\bin\Debug\Unity.ServiceLocation.pdb
 C:\Users\jensda\source\repos\MathGame\MathGame\obj\Debug\Game\ChooseGameView.g.cs
 C:\Users\jensda\source\repos\MathGame\MathGame\obj\Debug\Game\ChooseGameView.baml
+<<<<<<< HEAD
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\bin\Debug\MathGame.exe.config
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\bin\Debug\MathGame.exe
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\bin\Debug\MathGame.pdb
@@ -142,3 +143,5 @@ C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\obj
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\obj\Debug\MathGame.csproj.CoreCompileInputs.cache
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\obj\Debug\MathGame.exe
 C:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\obj\Debug\MathGame.pdb
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4

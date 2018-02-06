@@ -3,13 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+<<<<<<< HEAD
              xmlns:local="clr-namespace:MathGame"
+=======
+             xmlns:local="clr-namespace:MathGame.Players"
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
              xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
              xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" 
              x:Class="MathGame.Players.PlayerListView"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
+<<<<<<< HEAD
     <!--local:ViewModelLocator.AutoWireViewModel="True"-->
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
     <i:Interaction.Triggers>
         <i:EventTrigger EventName="Loaded">
             <ei:CallMethodAction TargetObject="{Binding}" MethodName="LoadPlayers" />
@@ -30,6 +37,7 @@
                   AutoGenerateColumns="False"
                   CanUserAddRows="False"
                   Grid.Row="1"
+<<<<<<< HEAD
                   IsReadOnly="True"
                   SelectedItem="{Binding SelectedPlayer}">
             <i:Interaction.Triggers>
@@ -37,6 +45,9 @@
                     <ei:CallMethodAction TargetObject="{Binding}" MethodName="CheckCanContinue" />
                 </i:EventTrigger>
             </i:Interaction.Triggers>
+=======
+                  SelectedItem="{Binding SelectedPlayer}">
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding FirstName}"
                                     Width="*" />

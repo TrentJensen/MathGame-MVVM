@@ -33,11 +33,15 @@ namespace MathGame.Players
         public Player SelectedPlayer
         {
             get { return _selectedPlayer; }
+<<<<<<< HEAD
             set
             {
                 SetProperty(ref _selectedPlayer, value);
 
             }
+=======
+            set { SetProperty(ref _selectedPlayer, value); }
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
         }
 
         /// <summary>
@@ -63,11 +67,14 @@ namespace MathGame.Players
             return false;
         }
 
+<<<<<<< HEAD
         public void CheckCanContinue()
         {
             CanContinue();
         }
 
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
         private void OnAddPlayer()
         {
             AddPlayerRequested(new Player { });

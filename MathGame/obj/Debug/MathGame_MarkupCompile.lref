@@ -1,9 +1,17 @@
 ﻿
 
+<<<<<<< HEAD
 FC:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\Game\ChooseGameView.xaml;;
 FC:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\Game\GameView.xaml;;
 FC:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\MainWindow.xaml;;
 FC:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\Players\AddEditView.xaml;;
 FC:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\Players\PlayerListView.xaml;;
 FC:\Users\jensda\Downloads\MathGame-MVVM-master\MathGame-MVVM-master\MathGame\Scores\ScoreView.xaml;;
+=======
+FC:\Users\jensda\source\repos\MathGame\MathGame\Game\GameView.xaml;;
+FC:\Users\jensda\source\repos\MathGame\MathGame\MainWindow.xaml;;
+FC:\Users\jensda\source\repos\MathGame\MathGame\Players\AddEditView.xaml;;
+FC:\Users\jensda\source\repos\MathGame\MathGame\Players\PlayerListView.xaml;;
+FC:\Users\jensda\source\repos\MathGame\MathGame\Game\ChooseGameView.xaml;;
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
 

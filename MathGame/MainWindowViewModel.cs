@@ -1,7 +1,10 @@
 ﻿using MathGame.Game;
 using MathGame.Model;
 using MathGame.Players;
+<<<<<<< HEAD
 using MathGame.Scores;
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +20,10 @@ namespace MathGame
         private PlayerListViewModel _playerListViewModel;
         private AddEditViewModel _addEditViewModel;
         private ChooseGameViewModel _chooseGameViewModel = new ChooseGameViewModel();
+<<<<<<< HEAD
         private ScoreViewModel _scoreViewModel;
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
 
         private BaseViewModel _CurrentViewModel;
 
@@ -42,12 +48,19 @@ namespace MathGame
         /// </summary>
         public MainWindowViewModel()
         {
+<<<<<<< HEAD
             NavCommand = new RelayCommand<string>(OnNav, CanOnNav);
+=======
+            NavCommand = new RelayCommand<string>(OnNav);
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
 
             _playerListViewModel = ContainerHelper.Container.Resolve<PlayerListViewModel>();
             _addEditViewModel = ContainerHelper.Container.Resolve<AddEditViewModel>();
             _gameViewModel = ContainerHelper.Container.Resolve<GameViewModel>();
+<<<<<<< HEAD
             _scoreViewModel = ContainerHelper.Container.Resolve<ScoreViewModel>();
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
 
             _playerListViewModel.AddPlayerRequested += AddPlayer;
             _playerListViewModel.EditPlayerRequested += EditPlayer;
@@ -98,6 +111,7 @@ namespace MathGame
                 case "player":
                     CurrentViewModel = _playerListViewModel;
                     break;
+<<<<<<< HEAD
                 case "score":
                     CurrentViewModel = _scoreViewModel;
                     break;
@@ -108,5 +122,9 @@ namespace MathGame
         {
             return true;
         }
+=======
+            }
+        }
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
     }
 }

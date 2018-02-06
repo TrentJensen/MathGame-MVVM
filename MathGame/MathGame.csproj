@@ -94,10 +94,13 @@
     <Compile Include="BaseViewModel.cs" />
     <Compile Include="ContainerHelper.cs" />
     <Compile Include="Converters\NegatableBooleanToVisibilityConverter.cs" />
+<<<<<<< HEAD
     <Compile Include="Dialogs\DialogService\DialogService.cs" />
     <Compile Include="Dialogs\DialogService\DialogWindow.xaml.cs">
       <DependentUpon>DialogWindow.xaml</DependentUpon>
     </Compile>
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
     <Compile Include="Game\ChooseGameView.xaml.cs">
       <DependentUpon>ChooseGameView.xaml</DependentUpon>
     </Compile>
@@ -117,6 +120,7 @@
     <Compile Include="Players\PlayerListViewModel.cs" />
     <Compile Include="Players\SimplePlayer.cs" />
     <Compile Include="RelayCommand.cs" />
+<<<<<<< HEAD
     <Compile Include="Scores\ScoreView.xaml.cs">
       <DependentUpon>ScoreView.xaml</DependentUpon>
     </Compile>
@@ -129,6 +133,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+    <Compile Include="Services\IPlayerRepository.cs" />
+    <Compile Include="Services\PlayerRepository.cs" />
+    <Compile Include="ValidatableBase.cs" />
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
     <Page Include="Game\ChooseGameView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -157,10 +166,13 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
     <Page Include="Scores\ScoreView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -192,7 +204,13 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup />
+=======
+  <ItemGroup>
+    <Folder Include="Scores\" />
+  </ItemGroup>
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
   <ItemGroup>
     <ProjectReference Include="..\MathGame.Data\MathGame.Data.csproj">
       <Project>{5884811e-6007-405d-80e4-5a6eef2ad24a}</Project>

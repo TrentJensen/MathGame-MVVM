@@ -5,10 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:game="clr-namespace:MathGame.Game"
         xmlns:players="clr-namespace:MathGame.Players"
+<<<<<<< HEAD
         xmlns:scores="clr-namespace:MathGame.Scores"
         xmlns:local="clr-namespace:MathGame"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="725">
+=======
+        xmlns:local="clr-namespace:MathGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
     <Window.DataContext>
         <local:MainWindowViewModel />
     </Window.DataContext>
@@ -26,9 +32,13 @@
         <DataTemplate DataType="{x:Type game:ChooseGameViewModel}">
             <game:ChooseGameView />
         </DataTemplate>
+<<<<<<< HEAD
         <DataTemplate DataType="{x:Type scores:ScoreViewModel}">
             <scores:ScoreView />
         </DataTemplate>
+=======
+
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
     </Window.Resources>
     
     <Grid>
@@ -46,10 +56,13 @@
                     Command="{Binding NavCommand}"
                     CommandParameter="player"
                     Grid.Column="0" />
+<<<<<<< HEAD
             <Button Content="Scores"
                     Command="{Binding NavCommand}"
                     CommandParameter="score"
                     Grid.Column="1" />
+=======
+>>>>>>> 80ce56c67b33c8237d3d9cd8796ffabd6214e0f4
             <Button Content="Play"
                     Command="{Binding NavCommand}"
                     CommandParameter="game"
